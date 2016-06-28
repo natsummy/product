@@ -1,8 +1,12 @@
+<?php 
+session_start();
+$_SESSION['execute'] = false;
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>入力ページ</title>
+        <title>Remind me</title>
     <style>
         form div {
             text-align:center;
@@ -12,12 +16,13 @@
     <link rel="stylesheet" href="/product/design.css">
 </head>
 <body>
+    <h1>もやもや日記</h1>
     <div class="tab">
         <a class="head" href="/product/diary_list.php">日記一覧</a>
         <a class="head" href="/product/diary_input.php">日記を書く</a>
-        <a class="head" href="/product/monthly_analysis.php">分析</a>
+        <a class="head" href="/product/monthly_analysis.php">過去分析</a>
         <a class="head" href="/product/monthly_ranking.php">ランキング</a>
-    </div>
+</div>
     <h2>日記を書く</h2>
     <form method="get" action="diary_update.php">
         <p>日付：　　

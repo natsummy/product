@@ -1,0 +1,44 @@
+tbody, td, th {
+    border: solid #444444 1px;
+    margin: 3px auto;
+    text-align:center;
+    color:#333333;
+    width:230px;
+}
+th {
+    background-color:#F0FFFF;
+}
+table {
+    border: solid #444444 1px;
+    margin: 0 auto;
+    padding: 0px;
+    border-collapse:collapse;
+}
+h2 {
+    color:#333333;
+    text-align:center;
+}
+/*.evaluation{
+    width:250px; 
+    text-align:left;
+    clear:both;
+    margin:0 auto;
+}*/
+.radio {
+    margin: 0px 5px 0px 2px;    
+}
+
+.head:hover {
+    color:#333333;
+}
+
+.head {
+    text-decoration:none;
+    font-weight:bold;
+    color:#999999;
+    text-align:center;
+    margin:0px 15px;
+}
+body{
+    text-align:center;
+}
